@@ -1,0 +1,25 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .navbar { grid-area: 1 / 1 / 2 / 6; }
+  
+  .topPhoto { grid-area: 2 / 1 / 6 / 6; }
+  
+  .datebar { grid-area: 6 / 1 / 7 / 6; }
+  
+  .upcoming { grid-area: 7 / 2 / 12 / 5; }
+  
+  .info { grid-area: 12 / 1 / 14 / 6; }
+  
+  .Map { grid-area: 12 / 1 / 14 / 3; }
+  
+  .social { grid-area: 12 / 5 / 14 / 6; }
+  
+  .shows { grid-area: 12 / 4 / 14 / 5; }
+  
+  .Info { grid-area: 12 / 3 / 14 / 4; }
+  
